@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — ListoFast</title>
+<style>
+  :root {
+    --primario: #1a237e;
+    --primario-chiaro: #283593;
+    --oro: #f9a825;
+    --testo: #212121;
+    --testo-secondario: #616161;
+    --sfondo: #fafafa;
+    --bordo: #e0e0e0;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Georgia, 'Times New Roman', serif; background: var(--sfondo); color: var(--testo); line-height: 1.8; }
+  header { background: linear-gradient(135deg, var(--primario), var(--primario-chiaro)); color: white; padding: 48px 24px 32px; text-align: center; }
+  header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; margin-bottom: 8px; }
+  header p { font-size: 0.95rem; opacity: 0.8; font-family: 'Helvetica Neue', Arial, sans-serif; }
+  .lang-switch { display: flex; justify-content: center; gap: 12px; margin-top: 20px; }
+  .lang-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.4); color: white; padding: 6px 20px; border-radius: 20px; cursor: pointer; font-size: 0.85rem; font-family: 'Helvetica Neue', Arial, sans-serif; transition: background 0.2s; }
+  .lang-btn.active, .lang-btn:hover { background: rgba(255,255,255,0.3); }
+  .container { max-width: 820px; margin: 40px auto; padding: 0 24px 60px; }
+  .update-box { background: #fff8e1; border-left: 4px solid var(--oro); padding: 12px 16px; border-radius: 4px; margin-bottom: 32px; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.875rem; color: #5d4037; }
+  section { background: var(--card); border-radius: 12px; padding: 28px 32px; margin-bottom: 20px; border: 1px solid var(--bordo); box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+  section h2 { font-size: 1.15rem; color: var(--primario); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 2px solid var(--bordo); font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; display: flex; align-items: center; gap: 10px; }
+  section h2 .num { background: var(--primario); color: white; width: 26px; height: 26px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; font-size: 0.75rem; flex-shrink: 0; }
+  p { margin-bottom: 12px; font-size: 0.95rem; }
+  p:last-child { margin-bottom: 0; }
+  ul { margin: 8px 0 12px 20px; font-size: 0.95rem; }
+  ul li { margin-bottom: 6px; }
+  .highlight { background: #e8eaf6; border-radius: 8px; padding: 12px 16px; margin: 12px 0; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.875rem; color: var(--primario); }
+  .warning { background: #fff3e0; border-left: 4px solid #ff9800; border-radius: 4px; padding: 12px 16px; margin: 12px 0; font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 0.875rem; color: #e65100; }
+  .contact-box { background: linear-gradient(135deg, var(--primario), var(--primario-chiaro)); color: white; border-radius: 12px; padding: 28px 32px; margin-bottom: 20px; }
+  .contact-box h2 { color: white; font-size: 1.1rem; margin-bottom: 16px; font-family: 'Helvetica Neue', Arial, sans-serif; font-weight: 700; }
+  .contact-box p { font-size: 0.95rem; opacity: 0.9; }
+  .contact-box a { color: var(--oro); text-decoration: none; }
+  .contact-box a:hover { text-decoration: underline; }
+  footer { text-align: center; padding: 24px; font-size: 0.8rem; color: var(--testo-secondario); font-family: 'Helvetica Neue', Arial, sans-serif; border-top: 1px solid var(--bordo); }
+  .lang-it, .lang-en { display: block; }
+  body.en .lang-it { display: none; }
+  body.en .lang-en { display: block; }
+  body:not(.en) .lang-en { display: none; }
+  body:not(.en) .lang-it { display: block; }
+  @media (max-width: 600px) { section { padding: 20px 18px; } header h1 { font-size: 1.5rem; } .container { padding: 0 16px 40px; } }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ListoFast</h1>
+  <p class="lang-it">Informativa sulla Privacy</p>
+  <p class="lang-en">Privacy Policy</p>
+  <div class="lang-switch">
+    <button class="lang-btn active" onclick="setLang('it')">🇮🇹 Italiano</button>
+    <button class="lang-btn" onclick="setLang('en')">🇬🇧 English</button>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="update-box">
+    <span class="lang-it">📅 Ultimo aggiornamento: 7 luglio 2026</span>
+    <span class="lang-en">📅 Last updated: July 7, 2026</span>
+  </div>
+
+  <!-- 1. INTRODUZIONE -->
+  <section>
+    <h2><span class="num">1</span>
+      <span class="lang-it">Introduzione e Accettazione</span>
+      <span class="lang-en">Introduction and Acceptance</span>
+    </h2>
+    <p class="lang-it">La presente informativa descrive come ListoFast raccoglie, utilizza e protegge i dati degli utenti, in conformità al Regolamento (UE) 2016/679 (GDPR) e alla normativa italiana sulla protezione dei dati personali.</p>
+    <p class="lang-en">This privacy policy describes how ListoFast collects, uses, and protects users' data, in compliance with Regulation (EU) 2016/679 (GDPR) and applicable data protection legislation.</p>
+    <p class="lang-it">ListoFast è un'applicazione Android gratuita per la gestione di liste della spesa, con articoli in italiano e inglese e funzionamento interamente locale sul dispositivo.</p>
+    <p class="lang-en">ListoFast is a free Android application for managing grocery lists, with items in Italian and English and entirely local on-device operation.</p>
+    <div class="highlight lang-it">
+      📋 L'utilizzo dell'applicazione implica la lettura e l'accettazione della presente informativa. Per gli utenti nello Spazio Economico Europeo, Regno Unito e Svizzera, al primo avvio viene inoltre mostrato un modulo di consenso GDPR relativo alla pubblicità, prima di qualsiasi inizializzazione degli annunci.
+    </div>
+    <div class="highlight lang-en">
+      📋 Use of the application implies reading and accepting this privacy policy. For users in the European Economic Area, United Kingdom and Switzerland, a GDPR consent form regarding advertising is also shown at first launch, before any ad initialization.
+    </div>
+  </section>
+
+  <!-- 2. DATI RACCOLTI -->
+  <section>
+    <h2><span class="num">2</span>
+      <span class="lang-it">Dati Raccolti da ListoFast</span>
+      <span class="lang-en">Data Collected by ListoFast</span>
+    </h2>
+    <p class="lang-it"><strong>2.1 Dati inseriti dall'utente (archiviati esclusivamente in locale)</strong></p>
+    <p class="lang-en"><strong>2.1 Data entered by the user (stored exclusively locally)</strong></p>
+    <ul>
+      <li class="lang-it">Liste della spesa create dall'utente (nome lista, data di creazione)</li>
+      <li class="lang-en">Grocery lists created by the user (list name, creation date)</li>
+      <li class="lang-it">Articoli aggiunti a ciascuna lista (nome, categoria, quantità, unità di misura, stato "comprato")</li>
+      <li class="lang-en">Items added to each list (name, category, quantity, unit of measure, "purchased" status)</li>
+      <li class="lang-it">Preferenza di lingua dell'app (italiano/inglese), se impostata manualmente</li>
+      <li class="lang-en">App language preference (Italian/English), if set manually</li>
+    </ul>
+    <div class="highlight lang-it">
+      ✅ Nessuno di questi dati viene trasmesso a server remoti gestiti dallo sviluppatore. Tutto è salvato esclusivamente nella memoria del dispositivo tramite storage locale (Hive). Lo sviluppatore non ha accesso, non raccoglie e non conserva su propri server alcun dato inserito nell'App.
+    </div>
+    <div class="highlight lang-en">
+      ✅ None of this data is transmitted to remote servers operated by the developer. Everything is stored exclusively in local device storage (Hive). The developer has no access to, does not collect, and does not store on its own servers any data entered in the App.
+    </div>
+    <p class="lang-it"><strong>2.2 Dati raccolti tramite Google AdMob</strong></p>
+    <p class="lang-en"><strong>2.2 Data collected via Google AdMob</strong></p>
+    <p class="lang-it">ListoFast è un'app gratuita finanziata tramite spazi pubblicitari forniti da Google AdMob — vedi sezione 3 per il dettaglio completo.</p>
+    <p class="lang-en">ListoFast is a free app monetized through advertising provided by Google AdMob — see section 3 for full details.</p>
+  </section>
+
+  <!-- 3. ADMOB -->
+  <section>
+    <h2><span class="num">3</span>
+      <span class="lang-it">Pubblicità e Google AdMob</span>
+      <span class="lang-en">Advertising and Google AdMob</span>
+    </h2>
+    <p class="lang-it">Per fornire e, ove consentito, personalizzare gli annunci pubblicitari mostrati nell'app, <strong>Google AdMob</strong> (Google Ireland Limited / Google LLC) può raccogliere e trattare automaticamente:</p>
+    <p class="lang-en">To serve and, where permitted, personalize the ads shown in the app, <strong>Google AdMob</strong> (Google Ireland Limited / Google LLC) may automatically collect and process:</p>
+    <ul>
+      <li class="lang-it">Identificatori pubblicitari del dispositivo (es. Advertising ID)</li>
+      <li class="lang-en">Advertising identifiers (e.g. Advertising ID)</li>
+      <li class="lang-it">Indirizzo IP e localizzazione approssimativa</li>
+      <li class="lang-en">IP address and approximate location</li>
+      <li class="lang-it">Informazioni tecniche sul dispositivo e sul sistema operativo</li>
+      <li class="lang-en">Technical device and operating system information</li>
+      <li class="lang-it">Interazioni con gli annunci (visualizzazioni, click)</li>
+      <li class="lang-en">Ad interactions (impressions, clicks)</li>
+    </ul>
+    <p class="lang-it">Questi dati sono raccolti e trattati direttamente da Google secondo la propria informativa privacy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>. Ulteriori dettagli sul funzionamento della pubblicità Google: <a href="https://policies.google.com/technologies/ads" target="_blank">policies.google.com/technologies/ads</a>.</p>
+    <p class="lang-en">This data is collected and processed directly by Google in accordance with its own privacy policy: <a href="https://policies.google.com/privacy" target="_blank">policies.google.com/privacy</a>. Further details on how Google advertising works: <a href="https://policies.google.com/technologies/ads" target="_blank">policies.google.com/technologies/ads</a>.</p>
+    <div class="warning lang-it">
+      ⚠️ Lo sviluppatore non ha accesso ai dati individuali raccolti da Google tramite AdMob e agisce, rispetto a tale trattamento, come soggetto terzo che si limita a integrare l'SDK pubblicitario secondo le policy Google. Lo sviluppatore declina ogni responsabilità per il trattamento dati effettuato autonomamente da Google.
+    </div>
+    <div class="warning lang-en">
+      ⚠️ The developer has no access to the individual data collected by Google via AdMob and, with respect to this processing, acts merely as a third party integrating the advertising SDK according to Google's policies. The developer disclaims any liability for data processing carried out autonomously by Google.
+    </div>
+  </section>
+
+  <!-- 4. CONSENSO GDPR -->
+  <section>
+    <h2><span class="num">4</span>
+      <span class="lang-it">Consenso GDPR (Utenti EEA / UK / Svizzera)</span>
+      <span class="lang-en">GDPR Consent (EEA / UK / Switzerland Users)</span>
+    </h2>
+    <p class="lang-it">Per gli utenti situati nello Spazio Economico Europeo, nel Regno Unito e in Svizzera, l'App mostra alla prima apertura un modulo di consenso conforme al framework IAB TCF, gestito tramite Google User Messaging Platform (UMP). Il modulo consente di:</p>
+    <p class="lang-en">For users located in the European Economic Area, the United Kingdom and Switzerland, the App displays, on first launch, an IAB TCF-compliant consent form managed via Google's User Messaging Platform (UMP). The form allows the user to:</p>
+    <ul>
+      <li class="lang-it">Acconsentire alla pubblicità personalizzata</li>
+      <li class="lang-en">Consent to personalized advertising</li>
+      <li class="lang-it">Optare per la sola pubblicità non personalizzata</li>
+      <li class="lang-en">Opt for non-personalized advertising only</li>
+      <li class="lang-it">Gestire le proprie preferenze in qualsiasi momento tramite le Impostazioni dell'App</li>
+      <li class="lang-en">Manage their preferences at any time via the App's Settings</li>
+    </ul>
+    <p class="lang-it">Per gli utenti situati al di fuori di tali aree geografiche, il modulo di consenso potrebbe non essere mostrato in base alle policy Google in vigore per la relativa giurisdizione.</p>
+    <p class="lang-en">For users outside these regions, the consent form may not be shown depending on Google's applicable policies for that jurisdiction.</p>
+  </section>
+
+  <!-- 5. STORAGE LOCALE E BACKUP -->
+  <section>
+    <h2><span class="num">5</span>
+      <span class="lang-it">Storage Locale, Backup e Perdita Dati</span>
+      <span class="lang-en">Local Storage, Backup and Data Loss</span>
+    </h2>
+    <p class="lang-it">ListoFast non dispone di alcun backend cloud proprio: tutte le liste e gli articoli restano esclusivamente sul dispositivo dell'utente. Questo significa che:</p>
+    <p class="lang-en">ListoFast has no proprietary cloud backend: all lists and items remain exclusively on the user's device. This means that:</p>
+    <ul>
+      <li class="lang-it">I dati non sono sincronizzati automaticamente tra dispositivi diversi</li>
+      <li class="lang-en">Data is not automatically synchronized across different devices</li>
+      <li class="lang-it">La disinstallazione dell'App comporta la cancellazione definitiva e irreversibile di tutti i dati locali</li>
+      <li class="lang-en">Uninstalling the App results in the permanent and irreversible deletion of all local data</li>
+      <li class="lang-it">Un malfunzionamento, danneggiamento o smarrimento del dispositivo può comportare la perdita permanente dei dati salvati</li>
+      <li class="lang-en">A device malfunction, damage or loss may result in permanent loss of saved data</li>
+    </ul>
+    <div class="warning lang-it">
+      ⚠️ Lo sviluppatore non fornisce alcun meccanismo di backup automatico e declina ogni responsabilità per la perdita di dati locali dovuta a disinstallazione, danneggiamento, smarrimento o malfunzionamento del dispositivo dell'utente.
+    </div>
+    <div class="warning lang-en">
+      ⚠️ The developer provides no automatic backup mechanism and disclaims any liability for the loss of local data due to uninstallation, damage, loss, or malfunction of the user's device.
+    </div>
+  </section>
+
+  <!-- 6. MINORI -->
+  <section>
+    <h2><span class="num">6</span>
+      <span class="lang-it">Minori</span>
+      <span class="lang-en">Minors</span>
+    </h2>
+    <p class="lang-it">ListoFast non è un'applicazione rivolta o diretta specificamente a minori di 13 anni (o all'età minima prevista dalla normativa locale applicabile) e non richiede né raccoglie consapevolmente dati personali da minori. L'App non dispone di alcun meccanismo proprio di verifica dell'età: eventuali limitazioni alla pubblicità personalizzata per utenti minorenni dipendono esclusivamente da segnali tecnici forniti dal sistema operativo o dall'account Google (es. Family Link), sui quali lo sviluppatore non ha controllo né possibilità di verifica indipendente.</p>
+    <p class="lang-en">ListoFast is not an application directed at children under 13 (or the minimum age required by applicable local law) and does not knowingly request or collect personal data from minors. The App has no age verification mechanism of its own: any limitations on personalized advertising for minor users depend exclusively on technical signals provided by the operating system or Google account (e.g. Family Link), over which the developer has no control or independent means of verification.</p>
+    <div class="warning lang-it">
+      ⚠️ L'utilizzo dell'App da parte di un minore è vietato senza la supervisione e il consenso di un genitore o tutore legale, e ricade sotto la piena ed esclusiva responsabilità di quest'ultimo. Lo sviluppatore declina ogni responsabilità per l'accesso o l'utilizzo dell'App da parte di minori non autorizzati, incluse eventuali conseguenze derivanti dall'esposizione a contenuti pubblicitari non filtrati per mancata rilevazione tecnica dell'età.
+    </div>
+    <div class="warning lang-en">
+      ⚠️ Use of the App by a minor is prohibited without the supervision and consent of a parent or legal guardian, and falls under the full and exclusive responsibility of the latter. The developer disclaims any liability for access to or use of the App by unauthorized minors, including any consequences arising from exposure to unfiltered advertising content due to failed technical age detection.
+    </div>
+  </section>
+
+  <!-- 7. SICUREZZA -->
+  <section>
+    <h2><span class="num">7</span>
+      <span class="lang-it">Sicurezza dei Dati</span>
+      <span class="lang-en">Data Security</span>
+    </h2>
+    <p class="lang-it">Lo sviluppatore adotta un approccio ragionevole alla sicurezza tecnica dell'App, ma, data la natura gratuita dell'App per l'utente finale, non fornisce alcuna garanzia esplicita o implicita circa l'assenza totale di vulnerabilità, errori o interruzioni del servizio.</p>
+    <p class="lang-en">The developer takes a reasonable approach to the App's technical security but, given the App's free nature for the end user, makes no explicit or implied warranty regarding the total absence of vulnerabilities, errors, or service interruptions.</p>
+    <p class="lang-it">L'utente riconosce che nessun sistema informatico può garantire sicurezza assoluta ed è responsabile della custodia del proprio dispositivo.</p>
+    <p class="lang-en">The user acknowledges that no computer system can guarantee absolute security and is responsible for keeping their own device secure.</p>
+  </section>
+
+  <!-- 8. DIRITTI UTENTE E CANCELLAZIONE -->
+  <section>
+    <h2><span class="num">8</span>
+      <span class="lang-it">Diritti dell'Utente e Cancellazione Dati</span>
+      <span class="lang-en">User Rights and Data Deletion</span>
+    </h2>
+    <p class="lang-it">Poiché lo sviluppatore non conserva dati personali su server propri, l'esercizio dei diritti di accesso, rettifica e cancellazione rispetto ai dati locali si effettua direttamente dall'utente tramite:</p>
+    <p class="lang-en">Since the developer does not store personal data on its own servers, access, correction and deletion rights regarding local data are exercised directly by the user through:</p>
+    <ul>
+      <li class="lang-it">Le funzioni di modifica ed eliminazione di singoli articoli o intere liste, disponibili direttamente nell'App</li>
+      <li class="lang-en">The edit and delete functions for individual items or entire lists, available directly in the App</li>
+      <li class="lang-it">La disinstallazione dell'App, che elimina permanentemente tutti i dati locali residui</li>
+      <li class="lang-en">Uninstalling the App, which permanently deletes all remaining local data</li>
+    </ul>
+    <p class="lang-it">Per i dati trattati da Google tramite AdMob, l'utente può esercitare i propri diritti direttamente nei confronti di Google, anche tramite gli strumenti di gestione del consenso disponibili nell'App o tramite le impostazioni Google del proprio account/dispositivo.</p>
+    <p class="lang-en">For data processed by Google via AdMob, the user may exercise their rights directly with Google, including through the consent management tools available in the App or through Google account/device settings.</p>
+  </section>
+
+  <!-- 9. LIMITAZIONE DI RESPONSABILITA -->
+  <section>
+    <h2><span class="num">9</span>
+      <span class="lang-it">Limitazione di Responsabilità</span>
+      <span class="lang-en">Limitation of Liability</span>
+    </h2>
+    <p class="lang-it">ListoFast e il suo sviluppatore declinano qualsiasi responsabilità per i danni elencati di seguito. In nessun caso lo sviluppatore sarà responsabile per danni indiretti, consequenziali, perdita di dati o interruzione dell'utilizzo dell'app, anche qualora fosse stato informato della possibilità di tali danni. In particolare, declina responsabilità per:</p>
+    <p class="lang-en">ListoFast and its developer disclaim any liability for the damages listed below. In no event shall the developer be liable for indirect, consequential damages, data loss or interruption of app use, even if informed of the possibility of such damages. In particular, liability is disclaimed for:</p>
+    <ul>
+      <li class="lang-it">La perdita di dati locali dovuta a disinstallazione, malfunzionamenti, guasti o danneggiamenti del dispositivo dell'utente</li>
+      <li class="lang-en">Loss of local data due to uninstallation, malfunctions, failures or damage to the user's device</li>
+      <li class="lang-it">L'accesso non autorizzato ai dati causato da compromissione del dispositivo dell'utente (malware, accesso fisico non autorizzato, ecc.)</li>
+      <li class="lang-en">Unauthorized access to data caused by compromise of the user's device (malware, unauthorized physical access, etc.)</li>
+      <li class="lang-it">Contenuti pubblicitari mostrati da Google AdMob e trattamento dati effettuato autonomamente da Google nell'ambito del servizio pubblicitario</li>
+      <li class="lang-en">Advertising content shown by Google AdMob and data processing carried out autonomously by Google as part of the advertising service</li>
+      <li class="lang-it">Interruzioni del servizio pubblicitario o di Google Play indipendenti dalla volontà dello sviluppatore</li>
+      <li class="lang-en">Interruptions of the advertising service or Google Play beyond the developer's control</li>
+      <li class="lang-it">L'utilizzo dell'app in violazione dei presenti termini o della normativa applicabile</li>
+      <li class="lang-en">Use of the app in violation of these terms or applicable law</li>
+    </ul>
+    <p class="lang-it">L'App è fornita "così com'è" ("as is"), senza garanzie di alcun tipo.</p>
+    <p class="lang-en">The App is provided "as is", without warranties of any kind.</p>
+  </section>
+
+  <!-- 10. MODIFICHE -->
+  <section>
+    <h2><span class="num">10</span>
+      <span class="lang-it">Modifiche alla Privacy Policy</span>
+      <span class="lang-en">Changes to the Privacy Policy</span>
+    </h2>
+    <p class="lang-it">Il titolare si riserva il diritto di modificare la presente informativa in qualsiasi momento per adeguarla a cambiamenti normativi o tecnici. Le modifiche saranno pubblicate su questa pagina con aggiornamento della data. Il proseguimento dell'utilizzo dell'app successivamente alla pubblicazione delle modifiche costituisce accettazione della nuova informativa.</p>
+    <p class="lang-en">The data controller reserves the right to modify this policy at any time to adapt to regulatory or technical changes. Changes will be published on this page with an updated date. Continued use of the app after publication of changes constitutes acceptance of the new policy.</p>
+  </section>
+
+  <!-- 11. FORO COMPETENTE -->
+  <section>
+    <h2><span class="num">11</span>
+      <span class="lang-it">Foro Competente e Legge Applicabile</span>
+      <span class="lang-en">Jurisdiction and Applicable Law</span>
+    </h2>
+    <p class="lang-it">La presente informativa è regolata dalla legge italiana e dal Regolamento UE 2016/679 (GDPR). Per qualsiasi controversia relativa all'interpretazione, esecuzione o risoluzione della presente informativa o derivante dall'utilizzo dell'applicazione ListoFast, sarà competente in via esclusiva il Tribunale di Agrigento, salvo diversa disposizione inderogabile di legge applicabile nel paese di residenza dell'utente consumatore.</p>
+    <p class="lang-en">This policy is governed by Italian law and EU Regulation 2016/679 (GDPR). For any dispute relating to the interpretation, execution or termination of this policy or arising from the use of the ListoFast application, the Court of Agrigento (Italy) shall have exclusive jurisdiction, unless otherwise provided by mandatory law applicable in the consumer user's country of residence.</p>
+  </section>
+
+  <!-- 12. TITOLARE -->
+  <section>
+    <h2><span class="num">12</span>
+      <span class="lang-it">Titolare del Trattamento</span>
+      <span class="lang-en">Data Controller</span>
+    </h2>
+    <p class="lang-it">Il titolare del trattamento dei dati è:<br><br>
+      Giuseppe Di Dolce<br>
+      Agrigento (AG), Italia<br>
+      Email: <a href="mailto:privacy@previsfast.it">privacy@previsfast.it</a>
+    </p>
+    <p class="lang-en">The data controller is:<br><br>
+      Giuseppe Di Dolce<br>
+      Agrigento (AG), Italy<br>
+      Email: <a href="mailto:privacy@previsfast.it">privacy@previsfast.it</a>
+    </p>
+  </section>
+
+  <!-- CONTATTI -->
+  <div class="contact-box">
+    <h2 class="lang-it">📬 Contattaci per la Privacy</h2>
+    <h2 class="lang-en">📬 Contact Us for Privacy</h2>
+    <p class="lang-it">Per qualsiasi domanda, richiesta o reclamo relativo al trattamento dei tuoi dati:</p>
+    <p class="lang-en">For any questions, requests or complaints regarding the processing of your data:</p>
+    <br>
+    <p>📧 <a href="mailto:privacy@previsfast.it">privacy@previsfast.it</a></p>
+  </div>
+
+</div>
+
+<footer>
+  <p class="lang-it">© 2026 ListoFast — Tutti i diritti riservati</p>
+  <p class="lang-en">© 2026 ListoFast — All rights reserved</p>
+  <p style="margin-top: 6px; color: #9e9e9e;">
+    <span class="lang-it">Conforme al Regolamento UE 2016/679 (GDPR)</span>
+    <span class="lang-en">Compliant with EU Regulation 2016/679 (GDPR)</span>
+  </p>
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.body.className = lang === 'en' ? 'en' : '';
+    document.documentElement.lang = lang;
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>
